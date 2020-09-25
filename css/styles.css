@@ -6,31 +6,15 @@
   list-style: none;
   box-sizing: border-box; }
 
-nav {
-  width: 100%;
-  background: #8e44ad;
-  position: fixed;
-  top: 0; }
-  nav h5 {
-    font-family: 'Lobster', cursive;
-    font-size: 40px;
-    color: white;
-    padding: 10px 0;
-    text-align: center; }
-  nav .navbar-icons-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-    nav .navbar-icons-box a i {
-      font-size: 18px;
-      color: white;
-      padding: 20px 0; }
-      nav .navbar-icons-box a i span {
-        margin-left: 5px; }
-
 @media (max-width: 767px) {
   .navbar-icons-box {
-    margin: auto; } }
+    margin: auto; }
+  .search-main-box {
+    width: 90%; }
+  .input-box input {
+    width: 100%; }
+  .input-box button {
+    width: 100%; } }
 
 @media (max-width: 1439px) {
   .navbar-icons-box {
@@ -39,11 +23,76 @@ nav {
     display: none; } }
 
 @media (min-width: 768px) {
+  .float-left-md {
+    display: float-left; }
   nav {
     display: flex;
     align-items: center;
-    justify-content: space-around; } }
+    justify-content: space-around; }
+  .search-main-box {
+    width: 80%; }
+  .input-box input {
+    width: 70%; }
+  .input-box button {
+    width: 29%; } }
 
 @media (min-width: 1440px) {
   .navbar-icons-box {
-    width: 500px; } }
+    width: 500px; }
+  .search-box h5 {
+    font-size: 20px; } }
+
+nav {
+  width: 100%;
+  background: #e1b12c; }
+  nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0; }
+    nav div img {
+      height: 60px; }
+    nav div h5 {
+      font-family: 'Lobster', cursive;
+      font-size: 40px;
+      color: white;
+      margin-left: 10px; }
+  nav .navbar-icons-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    nav .navbar-icons-box a i {
+      font-size: 18px;
+      color: white;
+      padding: 10px 0; }
+      nav .navbar-icons-box a i span {
+        margin-left: 5px; }
+
+main .search-main-box {
+  padding: 20px;
+  margin: 150px auto; }
+  main .search-main-box h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px; }
+  main .search-main-box .search-box {
+    background: rgba(149, 165, 166, 0.5);
+    border-radius: 5px;
+    padding: 20px 10px; }
+    main .search-main-box .search-box h5 {
+      margin-bottom: 10px; }
+    main .search-main-box .search-box .input-box input {
+      font-size: 18px;
+      height: 100%;
+      padding: 10px; }
+    main .search-main-box .search-box .input-box button {
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px;
+      background: #e1b12c; }
+
+body {
+  background-image: url("	https://www.franquiciasinmobiliarias.mx/sites/default/files/imagenes/imagecache/blog_nodo/blog/bienes-raices-mexico_14.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
