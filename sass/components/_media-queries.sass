@@ -1,13 +1,13 @@
 
     
 @media (max-width: 767px)
+    .navbar-logo-box
+        margin: auto
     .navbar-icons-box
         margin: auto
     .search-main-box
         width: 90%
-    .input-box
-        input
-            width: 100%
+    .selectors-box
         button
             width: 100%
 
@@ -22,23 +22,18 @@
 @media (min-width: 768px)
     .float-left-md
         display: float-left
-    nav
+    .nav
         +d-flex(center, space-around)
-    .search-main-box
-        width: 80%
-    .input-box
-        input
-            width: 70%
-        button
-            width: 29%
-
-
+    .selectors-box
+        +d-flex(center, center)
 
 
 @media (min-width: 1440px)
     .navbar-icons-box
         width: 500px
-    .search-box
+    .search-main-box
+        width: 80%
+    .selectors-box
         h5
             font-size: 20px
 

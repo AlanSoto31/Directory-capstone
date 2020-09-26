@@ -4,16 +4,23 @@
   border: 0;
   font-family: sans-serif;
   list-style: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  text-decoration: none; }
+
+body {
+  background-image: url("../css/images/dublin-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
 
 @media (max-width: 767px) {
+  .navbar-logo-box {
+    margin: auto; }
   .navbar-icons-box {
     margin: auto; }
   .search-main-box {
     width: 90%; }
-  .input-box input {
-    width: 100%; }
-  .input-box button {
+  .selectors-box button {
     width: 100%; } }
 
 @media (max-width: 1439px) {
@@ -25,26 +32,26 @@
 @media (min-width: 768px) {
   .float-left-md {
     display: float-left; }
-  nav {
+  .nav {
     display: flex;
     align-items: center;
     justify-content: space-around; }
-  .search-main-box {
-    width: 80%; }
-  .input-box input {
-    width: 70%; }
-  .input-box button {
-    width: 29%; } }
+  .selectors-box {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
 
 @media (min-width: 1440px) {
   .navbar-icons-box {
     width: 500px; }
-  .search-box h5 {
+  .search-main-box {
+    width: 80%; }
+  .selectors-box h5 {
     font-size: 20px; } }
 
 nav {
   width: 100%;
-  background: #e1b12c; }
+  background: #B53471; }
   nav div {
     display: flex;
     align-items: center;
@@ -66,7 +73,9 @@ nav {
       color: white;
       padding: 10px 0; }
       nav .navbar-icons-box a i span {
-        margin-left: 5px; }
+        margin-left: 5px;
+        font-size: 18px;
+        font-weight: lighter; }
 
 main .search-main-box {
   padding: 20px;
@@ -81,18 +90,13 @@ main .search-main-box {
     padding: 20px 10px; }
     main .search-main-box .search-box h5 {
       margin-bottom: 10px; }
-    main .search-main-box .search-box .input-box input {
+    main .search-main-box .search-box .selectors-box select {
       font-size: 18px;
       height: 100%;
       padding: 10px; }
-    main .search-main-box .search-box .input-box button {
+    main .search-main-box .search-box .selectors-box button {
       font-size: 18px;
       font-weight: bold;
       padding: 10px;
-      background: #e1b12c; }
-
-body {
-  background-image: url("	https://www.franquiciasinmobiliarias.mx/sites/default/files/imagenes/imagecache/blog_nodo/blog/bienes-raices-mexico_14.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed; }
+      border-radius: 5px;
+      background: #B53471; }

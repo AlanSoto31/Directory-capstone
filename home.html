@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/d6bf1861cd.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 </head>
 <body>
 
-    <nav>
-        <div>
-            <img class="logo" src="css/images/logo.png" alt="">
+    <nav class="nav">
+        <div class="navbar-logo-box">
+            <img class="logo" src="css/images/logo.png" alt="logo">
             <h5>Root it</h5>
         </div>
         <div class="navbar-icons-box">
@@ -25,11 +27,30 @@
         <div class="search-main-box">
             <h2>Lorem, ipsum dolor sit amet consectetur adipisicing.</h2>
             <div class="search-box">
-                <h5>SEARCH BY KEY WORD:</h5>
-                <form class="input-box"  action="#">
-                    <input class="float-left-md" type="text">
-                    <button class="float-left-md" type="submit">SEARCH</button>
-                </form>
+                 <div class="selectors-box ">
+                    <select class="browser-default custom-select type-selector">
+                        <option selected>TYPE</option>
+                        <option value="1">Apartment</option>
+                        <option value="2">Condo</option>
+                        <option value="3">House</option>
+                    </select>
+                    <select class="browser-default custom-select city-selector">
+                        <option selected>RENT / SALE</option>
+                        <option value="1">Rent</option>
+                        <option value="2">Sale</option>
+                    </select>
+                    <select class="browser-default custom-select city-selector">
+                        <option selected>CITY</option>
+                        <option value="1">Monterrey</option>
+                        <option value="2">Guadalajara</option>
+                        <option value="3">CDMX</option>
+                        <option value="1">Cancun</option>
+                        <option value="2">Baja california</option>
+                        <option value="3">Merida</option>
+                        <option value="3">Veracruz</option>
+                    </select>
+                    <button class="" type="submit">SEARCH</button>
+                </div>
             </div>
         </div>
     </main>    
