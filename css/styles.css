@@ -7,7 +7,7 @@
   box-sizing: border-box;
   text-decoration: none; }
 
-body {
+.body-home {
   background-image: url("../css/images/dublin-bg.jpg");
   background-size: cover;
   background-position: center center;
@@ -22,12 +22,6 @@ body {
     width: 90%; }
   .selectors-box button {
     width: 100%; } }
-
-@media (max-width: 1439px) {
-  .navbar-icons-box {
-    width: 300px; }
-  .d-none-sm-lg {
-    display: none; } }
 
 @media (min-width: 768px) {
   .float-left-md {
@@ -47,7 +41,17 @@ body {
   .search-main-box {
     width: 80%; }
   .selectors-box h5 {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .results-main-box {
+    width: 80%; } }
+
+@media (max-width: 1439px) {
+  .navbar-icons-box {
+    width: 300px; }
+  .d-none-sm-lg {
+    display: none; }
+  .results-main-box {
+    width: 95%; } }
 
 nav {
   width: 100%;
@@ -100,3 +104,27 @@ main .search-main-box {
       padding: 10px;
       border-radius: 5px;
       background: #B53471; }
+
+.carousel-item img {
+  height: 300px;
+  width: 100%; }
+
+.carousel a span i {
+  font-size: 70px;
+  position: absolute;
+  bottom: 0; }
+
+.fa-angle-left {
+  right: 0; }
+
+.fa-angle-right {
+  left: 0; }
+
+.result-text-box {
+  padding: 10px;
+  background: rgba(223, 228, 234, 0.5);
+  width: 100%; }
+  .result-text-box h3, .result-text-box p {
+    font-weight: bold; }
+  .result-text-box .description {
+    color: #596275; }
