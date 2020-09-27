@@ -122,9 +122,11 @@ main .search-main-box {
 
 .result-text-box {
   padding: 10px;
-  background: rgba(223, 228, 234, 0.5);
-  width: 100%; }
+  background: rgba(223, 228, 234, 0.5); }
   .result-text-box h3, .result-text-box p {
     font-weight: bold; }
   .result-text-box .description {
     color: #596275; }
+
+.results {
+  margin-top: 30px; }
