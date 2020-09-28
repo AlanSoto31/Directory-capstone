@@ -17,6 +17,14 @@
     .general-data-box
         div
             margin: auto
+    .google-map
+        iframe
+            height: 350px
+    .video
+        iframe
+            height: 180px
+
+
 
 
 @media (min-width: 768px)
@@ -35,12 +43,24 @@
     .general-data-box
         div
             +d-flex(center, space-around)
+    .google-map
+        iframe
+            height: 500px
+    .video
+        iframe
+            height: 350px
+
+
 
 
 @media (min-width: 1024px)
     .detail-result-main-box
         width: 80%
         margin: auto
+    .video
+        iframe
+            height: 430px
+
 
 @media (min-width: 1440px)
     .navbar-icons-box
@@ -55,6 +75,11 @@
     .detail-carousel-item
         img
             height: 900px
+    .google-map, 
+    .video
+        width: 80%
+
+
 
 @media (max-width: 1439px)
     .navbar-icons-box
@@ -63,4 +88,5 @@
         display: none
     .results-main-box 
         width: 95%
+
 
