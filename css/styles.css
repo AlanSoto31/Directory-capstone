@@ -25,7 +25,9 @@
   .selectors-box button {
     width: 100%; }
   .detail-carousel-item img {
-    height: 300px; } }
+    height: 300px; }
+  .general-data-box div {
+    margin: auto; } }
 
 @media (min-width: 768px) {
   .float-left-md {
@@ -42,7 +44,11 @@
     width: 90%;
     margin: auto; }
   .detail-carousel-item img {
-    height: 600px; } }
+    height: 600px; }
+  .general-data-box div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; } }
 
 @media (min-width: 1024px) {
   .detail-result-main-box {
@@ -170,6 +176,27 @@ main .search-main-box {
       margin-left: 15px; }
 
 .general-data-box {
-  display: flex;
-  align-items: center;
-  justify-content: start; }
+  margin-top: 50px; }
+  .general-data-box div {
+    margin: auto;
+    width: 90%;
+    margin-top: 30px; }
+    .general-data-box div table tr {
+      margin-top: 20px; }
+      .general-data-box div table tr td {
+        padding: 10px 0; }
+        .general-data-box div table tr td i {
+          font-size: 35px;
+          color: #596275; }
+        .general-data-box div table tr td span {
+          font-size: 20px;
+          margin-left: 5px; }
+      .general-data-box div table tr .input {
+        text-align: center;
+        font-weight: bold; }
+
+.description-box {
+  margin-top: 50px; }
+  .description-box p {
+    margin-top: 30px;
+    font-size: 20px; }
