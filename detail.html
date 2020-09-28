@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 </head>
-<body>
+<body class="body-detail">
     <nav class="nav">
         <div class="navbar-logo-box">
             <img class="logo" src="css/images/logo.png" alt="logo">
@@ -133,36 +133,43 @@
                     </table>
                 </div>    
             </div>
-            <div class="description-box">
-                <h3>Description</h3>
-                <p>Residencia en Renta en Fraccionamiento Quintas San Isidro, Ubicada en cerrada privada con control de acceso, Cochera eléctrica para 2 autos, Sala, Comedor, Antecomedor, medio baño, Cocina Integral con estufa, Gran Patio estilo Español y equipado con asador empotrado. Pequeño cuartito de almacenamiento o bodega. Tres recamaras en planta alta, la recamara principal con baño privado y vestidor, las otras dos recamaras cuentan con closets. Closet para blancos, área para TV. Casa equipada con aparato de aire lavado, Boiler, Hidro, cocina integral con estufa, closets. Ubicación cercana a Blvd. Prolongación Independencia, a 3 minutos de Walmart, Galerias, Hoteles, Centros comerciales, Colegios, Bancos, Restaurantes internacionales.</p>    
+            <div class="row">
+                <div class="description-box col- col-xl-6">
+                    <h3>Description</h3>
+                    <p>Residencia en Renta en Fraccionamiento Quintas San Isidro, Ubicada en cerrada privada con control de acceso, Cochera eléctrica para 2 autos, Sala, Comedor, Antecomedor, medio baño, Cocina Integral con estufa, Gran Patio estilo Español y equipado con asador empotrado. Pequeño cuartito de almacenamiento o bodega. Tres recamaras en planta alta, la recamara principal con baño privado y vestidor, las otras dos recamaras cuentan con closets. Closet para blancos, área para TV. Casa equipada con aparato de aire lavado, Boiler, Hidro, cocina integral con estufa, closets. Ubicación cercana a Blvd. Prolongación Independencia, a 3 minutos de Walmart, Galerias, Hoteles, Centros comerciales, Colegios, Bancos, Restaurantes internacionales.</p>    
+                </div> 
+                <div class="video-box col- col-xl-6">
+                    <h3>Video</h3>
+                    <div class="video">
+                        <iframe src="https://www.youtube.com/embed/BWB4UF9fLyQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>       
             </div>
-            <div class="video-box">
-                <h3>Video</h3>
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/BWB4UF9fLyQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="row">
+                <div  class="location-box col- col-xl-6">
+                    <h3>Location</h3>
+                    <div class="google-map">
+                        <iframe src="https://maps.google.com/maps?q=Calle%20Ej%C3%A9rcito%20Mexicano%20319%2C%20Luis%20Echeverr%C3%ADa%2C%2094298%20Veracruz%2C%20Ver.&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
                 </div>
-            </div>
-            <div  class="location-box">
-                <h3>Location</h3>
-                <div class="google-map">
-                    <iframe src="https://maps.google.com/maps?q=Calle%20Ej%C3%A9rcito%20Mexicano%20319%2C%20Luis%20Echeverr%C3%ADa%2C%2094298%20Veracruz%2C%20Ver.&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                </div>
-            </div>
-            <div>
-                <h3>For more information</h3>
-                <div>
-                    <form>
+                <div class="send-message-box col- col-xl-6">
+                    <h3>For more information...</h3>
+                    <form class="form-box">
                         <div class="form-group">
-                            <label for="formGroupExampleInput">Example label</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                            <label for="form-user-input">Name</label>
+                            <input type="text" class="form-control" id="form-user-input" placeholder="Juanito Perez">
                         </div>
                         <div class="form-group">
-                            <label for="formGroupExampleInput2">Another label</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                            <label for="form-user-input2">e-mail</label>
+                            <input type="text" class="form-control" id="form-user-input2" placeholder="ejemplo@hotmail.com">
                         </div>
+                        <div class="form-group">
+                            <label for="form-user-input3">Phone number</label>
+                            <input type="text" class="form-control" id="form-user-input3" placeholder="844-879-42-36">
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
                     </form>
-                </div>
+                </div>    
             </div>
         </div>
     </main>
