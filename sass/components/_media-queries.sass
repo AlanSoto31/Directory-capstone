@@ -2,13 +2,18 @@
 @media (max-width: 767px)
     .navbar-logo-box
         margin: auto
-    .navbar-icons-box
+    .navbar-icons-box, 
+    .detail-result-main-box
         margin: auto
-    .search-main-box
+    .search-main-box,
+    .detail-result-main-box
         width: 90%
     .selectors-box
         button
             width: 100%
+    .carousel-detail-item
+        img
+            height: 300px
 
 @media (min-width: 768px)
     .float-left-md
@@ -17,7 +22,17 @@
         +d-flex(center, space-around)
     .selectors-box
         +d-flex(center, center)
+    .detail-result-main-box
+        width: 90%
+        margin: auto
+    .carousel-detail-item
+        img
+            height: 600px
 
+@media (min-width: 1024px)
+    .detail-result-main-box
+        width: 80%
+        margin: auto
 
 @media (min-width: 1440px)
     .navbar-icons-box
@@ -29,6 +44,9 @@
             font-size: 20px
     .results-main-box 
         width: 80%
+    .carousel-detail-item
+        img
+            height: 900px
 
 @media (max-width: 1439px)
     .navbar-icons-box
