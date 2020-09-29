@@ -13,6 +13,10 @@
   background-position: center center;
   background-attachment: fixed; }
 
+.body-detail,
+.body-results {
+  background: rgba(223, 228, 234, 0.5); }
+
 @media (max-width: 767px) {
   .navbar-logo-box {
     margin: auto; }
@@ -163,8 +167,9 @@ main .search-main-box {
   left: 0; }
 
 .result-text-box {
+  height: 184px;
   padding: 10px;
-  background: rgba(223, 228, 234, 0.5); }
+  background: white; }
   .result-text-box a h3 {
     font-weight: bold;
     color: #1e272e; }
