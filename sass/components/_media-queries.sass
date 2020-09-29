@@ -1,25 +1,31 @@
 
 @media (max-width: 767px)
-    .navbar-logo-box
-        margin: auto
-    .navbar-icons-box, 
+    .navbar-icons-box
+        width: 100px
+
     .detail-result-main-box
         margin: auto
+    
     .search-main-box,
     .detail-result-main-box
         width: 90%
+    
     .selectors-box
         button
             width: 100%
+    
     .detail-carousel-item
         img
             height: 300px
+    
     .general-data-box
         div
             margin: auto
+    
     .google-map
         iframe
             height: 350px
+    
     .video
         iframe
             height: 180px
@@ -28,12 +34,15 @@
 
 
 @media (min-width: 768px)
+    .navbar-icons-box
+        width: 300px
     .float-left-md
         display: float-left
     .nav
         +d-flex(center, space-around)
     .selectors-box
         +d-flex(center, center)
+    .search-main-box,
     .detail-result-main-box
         width: 90%
         margin: auto
@@ -54,6 +63,8 @@
 
 
 @media (min-width: 1024px)
+    .navbar-icons-box
+        width: 400px
     .detail-result-main-box
         width: 80%
         margin: auto
@@ -85,15 +96,14 @@
             height: 400px
 
 
+@media (max-width: 1023px)
+    .d-none-sm-lg
+        display: none
 
 
 
 
 @media (max-width: 1439px)
-    .navbar-icons-box
-        width: 300px
-    .d-none-sm-lg
-        display: none
     .results-main-box 
         width: 95%
     .description-box

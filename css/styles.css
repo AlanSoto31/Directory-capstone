@@ -1,31 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: sans-serif;
-  list-style: none;
-  box-sizing: border-box;
-  text-decoration: none; }
-
-.body-home {
-  background-image: url("../css/images/dublin-bg.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed; }
-
-.body-detail,
-.body-results {
-  background: rgba(223, 228, 234, 0.5); }
-
-main h1 {
-  font-family: 'Lobster', cursive;
-  text-align: center;
-  margin-top: 30px; }
-
 @media (max-width: 767px) {
-  .navbar-logo-box {
-    margin: auto; }
-  .navbar-icons-box,
+  .navbar-icons-box {
+    width: 100px; }
   .detail-result-main-box {
     margin: auto; }
   .search-main-box,
@@ -43,6 +18,8 @@ main h1 {
     height: 180px; } }
 
 @media (min-width: 768px) {
+  .navbar-icons-box {
+    width: 300px; }
   .float-left-md {
     display: float-left; }
   .nav {
@@ -53,6 +30,7 @@ main h1 {
     display: flex;
     align-items: center;
     justify-content: center; }
+  .search-main-box,
   .detail-result-main-box {
     width: 90%;
     margin: auto; }
@@ -68,6 +46,8 @@ main h1 {
     height: 350px; } }
 
 @media (min-width: 1024px) {
+  .navbar-icons-box {
+    width: 400px; }
   .detail-result-main-box {
     width: 80%;
     margin: auto; }
@@ -90,11 +70,11 @@ main h1 {
   .google-map iframe {
     height: 400px; } }
 
-@media (max-width: 1439px) {
-  .navbar-icons-box {
-    width: 300px; }
+@media (max-width: 1023px) {
   .d-none-sm-lg {
-    display: none; }
+    display: none; } }
+
+@media (max-width: 1439px) {
   .results-main-box {
     width: 95%; }
   .description-box p {
@@ -104,7 +84,32 @@ main h1 {
   .form-box {
     padding: 20px; } }
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+.body-home {
+  background-image: url("../css/images/dublin-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.body-detail,
+.body-results {
+  background: rgba(223, 228, 234, 0.5); }
+
+main h1 {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  margin-top: 30px; }
+
 .nav {
+  height: 100px;
   width: 100%;
   background: #B53471;
   display: flex;
@@ -119,7 +124,7 @@ main h1 {
       height: 60px; }
     .nav .navbar-logo-box h5 {
       font-family: 'Lobster', cursive;
-      font-size: 40px;
+      font-size: 45px;
       color: white;
       margin-left: 20px; }
   .nav .navbar-icons-box {
@@ -127,23 +132,32 @@ main h1 {
     align-items: center;
     justify-content: space-around; }
     .nav .navbar-icons-box a i {
-      font-size: 18px;
+      font-size: 25px;
       color: white;
       padding: 10px 0; }
       .nav .navbar-icons-box a i span {
-        margin-left: 5px;
-        font-size: 18px;
+        margin-left: 15px;
+        font-size: 25px;
         font-weight: lighter; }
+
+footer {
+  height: 100px;
+  width: 100%;
+  background: #3D3D3D; }
 
 main .search-main-box {
   padding: 20px;
-  margin: 150px auto; }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
   main .search-main-box h1 {
+    margin-top: 0;
     color: white; }
   main .search-main-box .search-box {
     background: rgba(149, 165, 166, 0.5);
     border-radius: 5px;
-    padding: 20px 10px; }
+    padding: 20px; }
     main .search-main-box .search-box h5 {
       margin-bottom: 10px; }
     main .search-main-box .search-box .selectors-box select {
@@ -157,6 +171,14 @@ main .search-main-box {
       padding: 10px;
       border-radius: 5px;
       background: #B53471; }
+
+.footer-home {
+  position: absolute;
+  bottom: 0; }
+
+.navbar-home {
+  position: absolute;
+  top: 0; }
 
 .result-carousel-item img {
   height: 300px;
