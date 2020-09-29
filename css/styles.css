@@ -15,7 +15,9 @@
   .google-map iframe {
     height: 350px; }
   .video iframe {
-    height: 180px; } }
+    height: 180px; }
+  .footer div {
+    margin: auto; } }
 
 @media (min-width: 768px) {
   .navbar-icons-box {
@@ -43,7 +45,13 @@
   .google-map iframe {
     height: 500px; }
   .video iframe {
-    height: 350px; } }
+    height: 350px; }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .footer ul {
+      width: 350px; } }
 
 @media (min-width: 1024px) {
   .navbar-icons-box {
@@ -140,10 +148,25 @@ main h1 {
         font-size: 25px;
         font-weight: lighter; }
 
-footer {
+.footer {
   height: 100px;
   width: 100%;
   background: #3D3D3D; }
+  .footer div a i {
+    color: white; }
+  .footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0; }
+    .footer ul a {
+      color: white;
+      font-size: 16px;
+      font-weight: lighter; }
+
+.footer-result,
+.footer-detail {
+  margin-top: 30px; }
 
 main .search-main-box {
   padding: 20px;
@@ -226,8 +249,7 @@ main .search-main-box {
     .icons-description-box a:hover {
       color: black; }
     .icons-description-box a i {
-      font-size: 30px;
-      margin-left: 15px; }
+      font-size: 30px; }
 
 .general-data-box {
   margin-top: 50px; }
