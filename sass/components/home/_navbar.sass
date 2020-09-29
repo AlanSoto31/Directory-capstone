@@ -1,20 +1,20 @@
 
-nav
+.nav
     width: 100%
     background: $navbar-bg
-    div
-        +d-flex(center, center)
-        padding: 15px 0
+    +d-flex(center, space-between)
+    .navbar-logo-box
+        +d-flex(center, space-around)
+        padding: 15px
         img
             height: 60px
         h5
             font-family: 'Lobster', cursive;
             font-size: 40px
             color: white
-            margin-left: 10px 
+            margin-left: 20px 
     .navbar-icons-box
-        +d-flex(center, space-between)
-
+        +d-flex(center, space-around)
         a
             i
                 font-size: 18px

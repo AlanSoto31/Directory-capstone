@@ -99,30 +99,33 @@
   .form-box {
     padding: 20px; } }
 
-nav {
+.nav {
   width: 100%;
-  background: #B53471; }
-  nav div {
+  background: #B53471;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .nav .navbar-logo-box {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 15px 0; }
-    nav div img {
+    justify-content: space-around;
+    padding: 15px; }
+    .nav .navbar-logo-box img {
       height: 60px; }
-    nav div h5 {
+    .nav .navbar-logo-box h5 {
       font-family: 'Lobster', cursive;
       font-size: 40px;
       color: white;
-      margin-left: 10px; }
-  nav .navbar-icons-box {
+      margin-left: 20px; }
+  .nav .navbar-icons-box {
     display: flex;
     align-items: center;
-    justify-content: space-between; }
-    nav .navbar-icons-box a i {
+    justify-content: space-around; }
+    .nav .navbar-icons-box a i {
       font-size: 18px;
       color: white;
       padding: 10px 0; }
-      nav .navbar-icons-box a i span {
+      .nav .navbar-icons-box a i span {
         margin-left: 5px;
         font-size: 18px;
         font-weight: lighter; }
