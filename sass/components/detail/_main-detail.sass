@@ -3,15 +3,6 @@
     .detail-result-1
         margin-top: 30px
     .description-main-box
-        .icons-description-box
-            +d-flex(center, center)
-            padding: 15px 0
-            a
-                color: $description
-                &:hover
-                    color: black
-                i
-                    font-size: 30px
         .general-data-box
             div
                 width: 90%
@@ -42,7 +33,17 @@
                 button
                     width: 100%
 
-.icons-description-box,
+.icons-description-box
+    +d-flex(center, center)
+    padding: 15px 0
+    a
+        color: $description
+        &:hover
+            color: black
+        i
+            font-size: 30px
+
+
 .general-data-box,
 .description-box,
 .video-box,

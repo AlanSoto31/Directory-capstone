@@ -165,6 +165,8 @@ main h1 {
     .footer ul a {
       font-size: 16px;
       font-weight: lighter; }
+      .footer ul a:hover {
+        color: white; }
 
 main .search-main-box {
   padding: 20px;
@@ -215,7 +217,7 @@ main .search-main-box {
   left: 0; }
 
 .result-text-box {
-  height: 184px;
+  height: 220px;
   padding: 10px;
   background: white; }
   .result-text-box a h3 {
@@ -228,18 +230,6 @@ main .search-main-box {
 
 .detail-result-main-box .detail-result-1 {
   margin-top: 30px; }
-
-.detail-result-main-box .description-main-box .icons-description-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px 0; }
-  .detail-result-main-box .description-main-box .icons-description-box a {
-    color: #596275; }
-    .detail-result-main-box .description-main-box .icons-description-box a:hover {
-      color: black; }
-    .detail-result-main-box .description-main-box .icons-description-box a i {
-      font-size: 30px; }
 
 .detail-result-main-box .description-main-box .general-data-box div {
   width: 90%; }
@@ -267,7 +257,18 @@ main .search-main-box {
 .detail-result-main-box .description-main-box .send-message-box .form-box button {
   width: 100%; }
 
-.icons-description-box,
+.icons-description-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0; }
+  .icons-description-box a {
+    color: #596275; }
+    .icons-description-box a:hover {
+      color: black; }
+    .icons-description-box a i {
+      font-size: 30px; }
+
 .general-data-box,
 .description-box,
 .video-box,
