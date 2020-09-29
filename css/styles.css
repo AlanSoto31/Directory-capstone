@@ -116,9 +116,19 @@ main h1 {
   text-align: center;
   margin-top: 30px; }
 
-.nav {
+.white {
+  color: white; }
+
+.nav,
+.footer {
   height: 100px;
-  width: 100%;
+  width: 100%; }
+
+.footer-result,
+.footer-detail {
+  margin-top: 30px; }
+
+.nav {
   background: #B53471;
   display: flex;
   align-items: center;
@@ -127,56 +137,42 @@ main h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 15px; }
+    padding: 0 15px; }
     .nav .navbar-logo-box img {
       height: 60px; }
     .nav .navbar-logo-box h5 {
       font-family: 'Lobster', cursive;
       font-size: 45px;
-      color: white;
       margin-left: 20px; }
   .nav .navbar-icons-box {
     display: flex;
     align-items: center;
     justify-content: space-around; }
     .nav .navbar-icons-box a i {
-      font-size: 25px;
-      color: white;
-      padding: 10px 0; }
+      font-size: 25px; }
       .nav .navbar-icons-box a i span {
         margin-left: 15px;
         font-size: 25px;
         font-weight: lighter; }
 
 .footer {
-  height: 100px;
-  width: 100%;
   background: #3D3D3D; }
-  .footer div a i {
-    color: white; }
   .footer ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 0; }
     .footer ul a {
-      color: white;
       font-size: 16px;
       font-weight: lighter; }
 
-.footer-result,
-.footer-detail {
-  margin-top: 30px; }
-
 main .search-main-box {
   padding: 20px;
-  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
   main .search-main-box h1 {
-    margin-top: 0;
-    color: white; }
+    margin-top: 0; }
   main .search-main-box .search-box {
     background: rgba(149, 165, 166, 0.5);
     border-radius: 5px;
@@ -189,19 +185,19 @@ main .search-main-box {
       padding: 10px; }
     main .search-main-box .search-box .selectors-box button {
       font-size: 18px;
-      color: white;
       font-weight: bold;
       padding: 10px;
       border-radius: 5px;
       background: #B53471; }
 
 .footer-home {
-  position: absolute;
   bottom: 0; }
 
 .navbar-home {
-  position: absolute;
   top: 0; }
+
+.results {
+  margin-top: 30px; }
 
 .result-carousel-item img {
   height: 300px;
@@ -230,78 +226,51 @@ main .search-main-box {
   .result-text-box .description {
     color: #596275; }
 
-.results {
+.detail-result-main-box .detail-result-1 {
   margin-top: 30px; }
 
-.detail-carousel-item img {
-  width: 100%; }
-
-.detail-result-1 {
-  margin-top: 30px; }
-
-.icons-description-box {
+.detail-result-main-box .description-main-box .icons-description-box {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px 0; }
-  .icons-description-box a {
+  .detail-result-main-box .description-main-box .icons-description-box a {
     color: #596275; }
-    .icons-description-box a:hover {
+    .detail-result-main-box .description-main-box .icons-description-box a:hover {
       color: black; }
-    .icons-description-box a i {
+    .detail-result-main-box .description-main-box .icons-description-box a i {
       font-size: 30px; }
 
-.general-data-box {
-  margin-top: 50px; }
-  .general-data-box div {
-    margin: auto;
-    width: 90%;
-    margin-top: 25px; }
-    .general-data-box div table tr {
-      margin-top: 20px; }
-      .general-data-box div table tr td {
-        padding: 10px 0; }
-        .general-data-box div table tr td i {
-          font-size: 35px;
-          color: #596275; }
-        .general-data-box div table tr td span {
-          font-size: 20px;
-          margin-left: 5px; }
-      .general-data-box div table tr .input {
-        text-align: center;
-        font-weight: bold; }
+.detail-result-main-box .description-main-box .general-data-box div {
+  width: 90%; }
+  .detail-result-main-box .description-main-box .general-data-box div table tr {
+    margin-top: 20px; }
+    .detail-result-main-box .description-main-box .general-data-box div table tr td {
+      padding: 10px 0; }
+      .detail-result-main-box .description-main-box .general-data-box div table tr td i {
+        font-size: 35px;
+        color: #596275; }
+      .detail-result-main-box .description-main-box .general-data-box div table tr td span {
+        font-size: 20px;
+        margin-left: 5px; }
+    .detail-result-main-box .description-main-box .general-data-box div table tr .input {
+      text-align: center;
+      font-weight: bold; }
 
-.description-box {
-  margin-top: 50px; }
-  .description-box h3 {
-    margin-bottom: 25px; }
-    .description-box h3 p {
-      font-size: 20px;
-      margin-top: 0; }
+.detail-result-main-box .description-main-box .description-box p {
+  font-size: 20px;
+  margin-top: 0; }
 
-.video-box {
-  margin-top: 50px; }
-  .video-box h3 {
-    margin-bottom: 25px; }
-  .video-box .video {
-    margin: auto; }
-    .video-box .video iframe {
-      width: 100%; }
+.detail-result-main-box .description-main-box .send-message-box .form-box .form-group input::placeholder {
+  opacity: .3; }
 
-.location-box {
-  margin-top: 50px; }
-  .location-box h3 {
-    margin-bottom: 25px; }
-  .location-box .google-map {
-    margin: auto; }
-    .location-box .google-map iframe {
-      width: 100%; }
+.detail-result-main-box .description-main-box .send-message-box .form-box button {
+  width: 100%; }
 
+.icons-description-box,
+.general-data-box,
+.description-box,
+.video-box,
+.location-box,
 .send-message-box {
   margin-top: 50px; }
-  .send-message-box h3 {
-    margin-bottom: 25px; }
-  .send-message-box .form-box .form-group input::placeholder {
-    opacity: .3; }
-  .send-message-box .form-box button {
-    width: 100%; }

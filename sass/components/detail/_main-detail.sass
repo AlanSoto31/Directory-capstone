@@ -1,75 +1,51 @@
-.detail-carousel-item
-    img
-        width: 100%
 
-.detail-result-1
-    margin-top: 30px
+.detail-result-main-box
+    .detail-result-1
+        margin-top: 30px
+    .description-main-box
+        .icons-description-box
+            +d-flex(center, center)
+            padding: 15px 0
+            a
+                color: $description
+                &:hover
+                    color: black
+                i
+                    font-size: 30px
+        .general-data-box
+            div
+                width: 90%
+                table
+                    tr
+                        margin-top: 20px
+                        td 
+                            padding: 10px 0
+                            i
+                                font-size: 35px
+                                color: $description
+                            span
+                                font-size: 20px
+                                margin-left: 5px
+                        .input
+                            text-align: center  
+                            font-weight: bold
+        .description-box
+            p
+                font-size: 20px
+                margin-top: 0
+        .send-message-box
+            .form-box
+                .form-group
+                    input
+                        &::placeholder
+                            opacity: .3
+                button
+                    width: 100%
 
-.icons-description-box
-    +d-flex(center, center)
-    padding: 15px 0
-    a
-        color: $description
-        &:hover
-            color: black
-        i
-            font-size: 30px
-
-.general-data-box
-    margin-top: 50px
-    div
-        margin: auto
-        width: 90%
-        margin-top: 25px
-        table
-            tr
-                margin-top: 20px
-                td 
-                    padding: 10px 0
-                    i
-                        font-size: 35px
-                        color: $description
-                    span
-                        font-size: 20px
-                        margin-left: 5px
-                .input
-                    text-align: center  
-                    font-weight: bold
-
-.description-box
-    margin-top: 50px
-    h3
-        margin-bottom: 25px
-        p
-            font-size: 20px
-            margin-top: 0
-
-.video-box
-    margin-top: 50px
-    h3
-        margin-bottom: 25px
-    .video
-        margin: auto
-        iframe
-            width: 100%
-
-.location-box
-    margin-top: 50px
-    h3
-        margin-bottom: 25px
-    .google-map
-        margin: auto
-        iframe
-            width: 100%
-
+.icons-description-box,
+.general-data-box,
+.description-box,
+.video-box,
+.location-box,
 .send-message-box
     margin-top: 50px
-    h3
-        margin-bottom: 25px
-    .form-box
-        .form-group
-            input
-                &::placeholder
-                    opacity: .3
-        button
-            width: 100%
