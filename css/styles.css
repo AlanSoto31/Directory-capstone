@@ -1,4 +1,6 @@
 @media (max-width: 767px) {
+  .m-auto-sm {
+    margin: auto; }
   .navbar-icons-box {
     width: 90px; }
   .main-bg {
@@ -15,8 +17,6 @@
     transform: translate(-50%, -50%); }
   .input-box input {
     width: 100%; }
-  .detail-result-main-box {
-    margin: auto; }
   .search-main-box,
   .detail-result-main-box {
     width: 90%; }
@@ -24,18 +24,12 @@
     width: 100%; }
   .detail-carousel-item img {
     height: 300px; }
-  .general-data-box div {
-    margin: auto; }
   .google-map iframe {
     height: 350px; }
   .video iframe {
     height: 180px; }
-  .footer div {
-    margin: auto; }
   .ti-box {
     padding: 40px; }
-    .ti-box .ti-text-box {
-      margin: auto; }
     .ti-box img {
       display: block;
       margin: 30px auto 0 auto;
@@ -56,17 +50,16 @@
     background-size: cover;
     background-attachment: fixed; }
   .search-button {
-    width: 30%; }
+    width: 30%;
+    display: inline-block; }
   .input-box input {
-    width: 69.2%; }
+    width: 69%; }
   .selectors-box {
     display: flex;
     align-items: center;
     justify-content: center; }
-  .search-main-box,
-  .detail-result-main-box {
-    width: 90%;
-    margin: auto; }
+  .search-main-box {
+    width: 90%; }
   .detail-carousel-item img {
     height: 600px; }
   .general-data-box div {
@@ -96,8 +89,7 @@
   .navbar-icons-box {
     width: 400px; }
   .detail-result-main-box {
-    width: 80%;
-    margin: auto; }
+    width: 80%; }
   .video iframe {
     height: 430px; }
   .it-row div {
@@ -159,6 +151,16 @@ main h1 {
 .white {
   color: white; }
 
+.black {
+  color: black; }
+
+.btn-x {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center; }
+
 .nav,
 .footer {
   height: 100px;
@@ -218,44 +220,26 @@ main .main-bg .search-main-box {
     main .main-bg .search-main-box .search-box h5 {
       margin-bottom: 10px;
       font-weight: bold; }
-    main .main-bg .search-main-box .search-box .input-box input {
-      font-size: 18px;
-      padding: 10px;
-      border-radius: 5px;
-      font-weight: bold; }
-    main .main-bg .search-main-box .search-box .input-box .btn {
-      font-size: 18px;
-      font-weight: bold;
-      padding: 10px;
-      border-radius: 5px;
-      text-align: center; }
-      main .main-bg .search-main-box .search-box .input-box .btn a:hover {
-        color: black; }
+    main .main-bg .search-main-box .search-box .input-box .btn-x a:hover {
+      color: black; }
     main .main-bg .search-main-box .search-box .input-box .search-button {
       background: #D35649; }
   main .main-bg .search-main-box .hiw-button {
     background: rgba(149, 165, 166, 0.5);
     margin-top: 15px;
     margin-left: 30%; }
-    main .main-bg .search-main-box .hiw-button a {
-      color: black;
-      font-weight: bold; }
 
 main .it-works-main-box {
   width: 90%; }
   main .it-works-main-box .iw-title {
     margin-top: 20px;
-    color: #D35649;
-    font-weight: bold;
-    text-align: center; }
+    color: #D35649; }
   main .it-works-main-box .it-row {
     opacity: .8; }
-    main .it-works-main-box .it-row div {
-      text-align: center; }
-      main .it-works-main-box .it-row div h3 {
-        margin-top: 15px; }
-      main .it-works-main-box .it-row div i {
-        font-size: 50px; }
+    main .it-works-main-box .it-row div h3 {
+      margin-top: 15px; }
+    main .it-works-main-box .it-row div i {
+      font-size: 50px; }
 
 main .three-imgs-main-box .ti-box .ti-text-box h4 {
   margin-bottom: 15px; }
@@ -307,10 +291,7 @@ main .three-imgs-main-box .ti-box-3 {
   padding: 10px;
   background: white; }
   .result-text-box a h3 {
-    font-weight: bold;
     color: #1e272e; }
-  .result-text-box p {
-    font-weight: bold; }
   .result-text-box .description {
     color: #596275; }
 
@@ -343,9 +324,6 @@ main .three-imgs-main-box .ti-box-3 {
       .detail-result-main-box .description-main-box .general-data-box div table tr td span {
         font-size: 20px;
         margin-left: 5px; }
-    .detail-result-main-box .description-main-box .general-data-box div table tr .input {
-      text-align: center;
-      font-weight: bold; }
 
 .detail-result-main-box .description-main-box .description-box p {
   font-size: 20px;
