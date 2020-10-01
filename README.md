@@ -24,9 +24,13 @@ Detail page, this is very detailed information about the item you are interested
 - Chrome browser
 
 ## Set up
+* Type ...
 
- - $ cd "folder location"
- - $ git clone git@github.com:AlanSoto31/Directory-capstone.git
+````
+ $ cd "folder location"
+ $ git clone git@github.com:AlanSoto31/Directory-capstone.git
+ ````
+ 
 * Install
 * Usage 
 * Deployment 
@@ -42,4 +46,10 @@ Detail page, this is very detailed information about the item you are interested
  ## Show your support
 
 - Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Inspired on the Mathew Njuguna patashuleKE design
+• https://www.behance.net/gallery/25563385/PatashuleKE
+
 
