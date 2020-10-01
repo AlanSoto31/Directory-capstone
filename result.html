@@ -23,9 +23,37 @@
         </div>
     </nav>    
   </header>  
-  <main>
-    <h1>Welcome to your new home.</h1>
-    <div class="row results-main-box m-auto">
+  <main class="results-main-box m-auto">
+    <div class="filters-main-box m-auto">
+      <h1 class="white">Filter by type of property, rent/sell and city</h1>
+      <div class="filters-box">
+          <div class="selectors-box">
+              <select class="browser-default custom-select type-selector">
+                  <option selected>TYPE</option>
+                  <option value="1">Apartment</option>
+                  <option value="2">Condo</option>
+                  <option value="3">House</option>
+              </select>
+              <select class="browser-default custom-select city-selector">
+                  <option selected>RENT / SALE</option>
+                  <option value="1">Rent</option>
+                  <option value="2">Sale</option>
+              </select>
+              <select class="browser-default custom-select city-selector">
+                  <option selected>CITY</option>
+                  <option value="1">Monterrey</option>
+                  <option value="2">Guadalajara</option>
+                  <option value="3">CDMX</option>
+                  <option value="1">Cancun</option>
+                  <option value="2">Baja california</option>
+                  <option value="3">Merida</option>
+                  <option value="3">Veracruz</option>
+              </select>
+              <div class="filters-button btn"><a href="result.html" class="white text-decoration-none">SEARCH</a></div>
+          </div>
+      </div>
+    </div>
+    <div class="row m-auto">
       <div class="result-1 results col- col-md-6 col-xl-4">
         <div id="house-1" class="carousel slide" data-interval="false">
           <ol class="carousel-indicators">
