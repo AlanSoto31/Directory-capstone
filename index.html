@@ -12,7 +12,7 @@
 </head>
 <body class="body-home">
     <header>
-        <nav class="nav navbar-home position-absolute">
+        <nav class="nav nav-home">
             <div class="navbar-logo-box">
                 <img class="logo" src="css/images/logo.png" alt="logo">
                 <h5 class="white">Root it</h5>
@@ -24,37 +24,73 @@
         </nav>    
     </header>  
     <main>
-        <div class="search-main-box position-absolute">
-            <h1 class="white">Welcome to your new home.</h1>
-            <div class="search-box">
-                <div class="selectors-box ">
-                    <select class="browser-default custom-select type-selector">
-                        <option selected>TYPE</option>
-                        <option value="1">Apartment</option>
-                        <option value="2">Condo</option>
-                        <option value="3">House</option>
-                    </select>
-                    <select class="browser-default custom-select city-selector">
-                        <option selected>RENT / SALE</option>
-                        <option value="1">Rent</option>
-                        <option value="2">Sale</option>
-                    </select>
-                    <select class="browser-default custom-select city-selector">
-                        <option selected>CITY</option>
-                        <option value="1">Monterrey</option>
-                        <option value="2">Guadalajara</option>
-                        <option value="3">CDMX</option>
-                        <option value="1">Cancun</option>
-                        <option value="2">Baja california</option>
-                        <option value="3">Merida</option>
-                        <option value="3">Veracruz</option>
-                    </select>
-                    <div class="search-button"><a href="result.html" class="white text-decoration-none">SEARCH</a></div>
+        <div class="main-bg">
+            <div class="search-main-box m-auto">
+                <h1 class="white">Welcome to your new home.</h1>
+                <div class="search-box">
+                    <h5>SEARCH BY KEY WORD:</h5>
+                    <form class="input-box"  action="#">
+                        <input type="text">
+                        <div class="search-button btn"><a href="result.html" class="white text-decoration-none">SEARCH</a></div>
+                    </form>
                 </div>
+                <div class="hiw-button btn"><a href="#" class="text-decoration-none">How it works</a></div>
             </div>
         </div>
+        <div class="it-works-main-box m-auto d-none d-md-block">
+            <h3 class="iw-title">Root it works in four simple steps...</h3>
+            <div class="row it-row">
+                <div class="setting-explanation-box col- col-lg-6">
+                    <i class="fas fa-sliders-h"></i>
+                    <h3>1.- SET:</h3>
+                    <p>Let us making a better search for you by setting filters at your convenience. Choosing type of property and the city where you want to live.</p>
+                </div>
+                <div class="explore-explanation-box col- col-lg-6">
+                    <i class="fas fa-hiking"></i>
+                    <h3>2.- EXPLORE:</h3>
+                    <p>Let us making a better search for you by setting filters at your convenience. Choosing type of property and the city where you want to live.</p>
+                </div>
+                <div class="choose-explanation-box col- col-lg-6">
+                    <i class="fas fa-crosshairs"></i>
+                    <h3>3.- CHOOSE:</h3>
+                    <p>Let us making a better search for you by setting filters at your convenience. Choosing type of property and the city where you want to live.</p>
+                </div>
+                <div class="contact-explanation-box col- col-lg-6">
+                    <i class="fas fa-satellite-dish"></i>
+                    <h3>4.- CONTACT:</h3>
+                    <p>Let us making a better search for you by setting filters at your convenience. Choosing type of property and the city where you want to live.</p>
+                </div>    
+            </div>
+        </div>
+        <div class="three-imgs-main-box d-none d-lg-block">
+            <div class="ti-box ti-box-1">
+                <div class="ti-text-box">
+                    <h4 class="white">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                    <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tenetur.</p>
+                    <div class="ti-btn btn"><a href="result.html" class="text-decoration-none ti-a-1">SEARCH</a></div>
+                </div>
+                <img src="css/images/3-imgs-1.jpg" alt="...">
+            </div>
+            <div class="ti-box ti-box-2">
+                <div class="ti-text-box">
+                    <h4 class="white">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                    <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tenetur.</p>
+                    <div class="ti-btn btn"><a href="result.html" class="text-decoration-none ti-a-2">SEARCH</a></div>
+                </div>
+                <img src="css/images/3-imgs-1.jpg" alt="...">
+            </div>
+            <div class="ti-box ti-box-3">
+                <div class="ti-text-box">
+                    <h4 class="white">Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                    <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tenetur.</p>
+                    <div class="ti-btn btn"><a href="result.html" class="text-decoration-none ti-a-3">SEARCH</a></div>
+                </div>
+                <img src="css/images/3-imgs-1.jpg" alt="...">
+            </div>
+
+        </div>    
     </main>
-    <footer class="footer footer-home position-absolute">
+    <footer class="footer">
         <div class="icons-description-box">
             <a href="#" class="text-decoration-none"><i class="fab fa-facebook-f mr-4 white"></i></a>
             <a href="#" class="text-decoration-none"><i class="fab fa-whatsapp mr-4 white"></i></a>

@@ -1,7 +1,26 @@
 
 @media (max-width: 767px)
+
     .navbar-icons-box
         width: 100px
+
+    .main-bg
+        position: relative
+        height: 550px
+        background-image: url('../css/images/dublin-bg.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+        background-attachment: fixed
+    
+    .search-main-box
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+
+    .input-box
+        input
+            width: 100%
 
     .detail-result-main-box
         margin: auto
@@ -38,7 +57,21 @@
 
     .nav
         +d-flex(center, space-around)
+
+    .main-bg
+        padding: 75px 0
+        background-image: url('../css/images/dublin-bg.jpg')
+        background-repeat: no-repeat
+        background-size: cover
+        background-attachment: fixed
     
+    .search-button
+        width: 30%
+
+    .input-box
+        input
+            width: 69.2%
+
     .selectors-box
         +d-flex(center, center)
     
@@ -80,6 +113,9 @@
     .video
         iframe
             height: 430px
+    .it-row
+        div
+            padding: 50px 50px
 
 @media (min-width: 1440px)
     
@@ -108,10 +144,19 @@
         iframe
             height: 400px
 
+    .it-row
+        div
+            padding: 50px 130px
+
+
 @media (max-width: 1023px)
     
     .d-none-sm-lg
         display: none
+    .it-row
+        padding: 0 50px
+        div
+            margin-top: 20px
 
 @media (max-width: 1439px)
     

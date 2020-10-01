@@ -1,36 +1,84 @@
 main
-    .search-main-box
-        padding: 20px
-        top: 50%
-        left: 50%
-        transform: translate(-50%, -50%)
-        h1
-            margin-top: 0
-        .search-box
-            background: $search-box-bg
-            border-radius: 5px
+    .main-bg
+        .search-main-box
             padding: 20px
-            h5
-                margin-bottom: 10px
-            .selectors-box
-                select
-                    font-size: 18px
-                    height: 100%
-                    padding: 10px
-                .search-button
-                    font-size: 18px
+            h1
+                margin-top: 0
+            .search-box
+                background: $search-box-bg
+                border-radius: 5px
+                padding: 20px
+                h5
+                    margin-bottom: 10px
                     font-weight: bold
-                    padding: 10px
-                    border-radius: 5px
-                    background: $navbar-bg
-                    text-align: center
-                    a
-                        &:hover
-                            color: $footer-bg
+                .input-box
+                    input
+                        font-size: 18px
+                        font-size: 18px
+                        padding: 10px
+                        border-radius: 5px
+                        font-weight: bold
+                    .btn
+                        font-size: 18px
+                        font-weight: bold
+                        padding: 10px
+                        border-radius: 5px
+                        text-align: center
+                        a
+                            &:hover
+                                color: $footer-bg
+                    .search-button
+                        background: $navbar-bg
+            .hiw-button
+                background: $search-box-bg
+                margin-top: 15px
+                margin-left: 30%
+                a
+                    color: black
+                    font-weight: bold
+    .it-works-main-box
+        width: 90%
+        .iw-title
+            margin-top: 20px
+            color: $navbar-bg
+            font-weight: bold
+            text-align: center
+        .it-row
+            opacity: .8
+            div
+                text-align: center
+                h3
+                    margin-top: 15px
+                i
+                    font-size: 50px
+    .three-imgs-main-box
+        .ti-box
+            +d-flex(center, space-around)
+            padding: 20px 0
+            div
+                h4
+                    margin-bottom: 15px
+                .ti-btn
+                    background: white
+            img
+                width: 250px
+                height: 250px
+                border-radius: 50%
+        .ti-box-1
+            background: $navbar-bg
+        .ti-box-2
+            background: $bg-2
+        .ti-box-3
+            background: $bg-3
 
-.footer-home
-    bottom: 0
+.ti-a-1
+    color: $navbar-bg
 
-.navbar-home
-    top: 0
+.ti-a-2
+    color: $bg-2
+
+.ti-a-3
+    color: $bg-3
+
+
 
