@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/d6bf1861cd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</head>
+<body class="body-results">
+  <header>
+    <nav class="nav nav-home">
+        <div class="navbar-logo-box m-auto-sm">
+            <a href="index.html"><img class="logo" src="css/images/logo.png" alt="logo"></a>
+            <h5 class="nav-title white">Root it</h5>
+        </div>
+        <div class="navbar-icons-box m-auto-sm">
+            <a href="index.html"><i class="fas fa-search white"><span class="nav-icons-span d-none-sm-lg white">SEARCH</span></i></a>
+            <a href="result.html"><i class="fas fa-poll white"><span class="nav-icons-span d-none-sm-lg white">TREND</span></i></a>
+        </div>
+    </nav>    
+  </header>  
+  <main class="results-main-box m-auto">
+    <div class="filters-main-box m-auto">
+      <h1 class="filters-title white">Filter by type of property, rent/sell and city</h1>
+      <div class="filters-box">
+          <div class="selectors-box">
+              <select class="selectors-select browser-default custom-select type-selector">
+                  <option selected>TYPE</option>
+                  <option value="1">Apartment</option>
+                  <option value="2">Condo</option>
+                  <option value="3">House</option>
+              </select>
+              <select class="selectors-select browser-default custom-select city-selector">
+                  <option selected>RENT / SALE</option>
+                  <option value="1">Rent</option>
+                  <option value="2">Sale</option>
+              </select>
+              <select class="selectors-select browser-default custom-select city-selector">
+                  <option selected>CITY</option>
+                  <option value="1">Monterrey</option>
+                  <option value="2">Guadalajara</option>
+                  <option value="3">CDMX</option>
+                  <option value="1">Cancun</option>
+                  <option value="2">Baja california</option>
+                  <option value="3">Merida</option>
+                  <option value="3">Veracruz</option>
+              </select>
+              <div class="filters-button btn btn-x"><a href="result.html" class="btn-x-a white text-decoration-none">SEARCH</a></div>
+          </div>
+      </div>
+    </div>
+    <div class="row m-auto">
+      <div class="result-1 results col- col-md-6 col-xl-4">
+        <div id="house-1" class="carousel slide" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#house-1" data-slide-to="0" class="active"></li>
+            <li data-target="#house-1" data-slide-to="1"></li>
+            <li data-target="#house-1" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item result-carousel-item active">
+              <a href="detail.html"><img src="css/images/houses/house-1/1.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-1/2.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-1/3.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#house-1" role="button" data-slide="prev">
+            <span><i class="fa fa-angle-left"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#house-1" role="button" data-slide="next">
+            <span><i class="fa fa-angle-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="result-text-box mt-0">
+          <a href="detail.html" class="text-decoration-none"><h3 class="rtb-title">Casa en bosquecinos</h3></a>
+          <p class="description">QUINTAS SAN ISIDRO, TORREÓN, COAHUILA DE ZARAGOZA</p>
+          <p class="mb-0">$ 15,000 MXN</p>
+        </div>
+      </div>
+      <div class="result-2 results col- col-md-6 col-xl-4">
+        <div id="house-2" class="carousel slide" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#house-2" data-slide-to="0" class="active"></li>
+            <li data-target="#house-2" data-slide-to="1"></li>
+            <li data-target="#house-2" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item result-carousel-item active">
+              <a href="detail.html"><img src="css/images/houses/house-2/1.jpeg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-2/2.jpeg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-2/3.jpeg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#house-2" role="button" data-slide="prev">
+            <span><i class="fa fa-angle-left"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#house-2" role="button" data-slide="next">
+            <span><i class="fa fa-angle-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="result-text-box mt-0">
+          <a href="detail.html" class="text-decoration-none"><h3 class="rtb-title">Casa en San Felipe</h3></a>
+          <p class="description">SAN FELIPE HUEYOTLIPAN, PUEBLA, PUEBLA</p>
+          <p class="mb-0">$ 6,500 MXN</p>
+        </div>
+      </div>
+      <div class="result-3 results col- col-md-6 col-xl-4">
+        <div id="house-3" class="carousel slide" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#house-3" data-slide-to="0" class="active"></li>
+            <li data-target="#house-3" data-slide-to="1"></li>
+            <li data-target="#house-3" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item result-carousel-item active">
+              <a href="detail.html"><img src="css/images/houses/house-3/1.jpeg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-3/2.jpeg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-3/3.jpeg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#house-3" role="button" data-slide="prev">
+            <span><i class="fa fa-angle-left"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#house-3" role="button" data-slide="next">
+            <span><i class="fa fa-angle-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="result-text-box mt-0">
+          <a href="detail.html" class="text-decoration-none"><h3 class="rtb-title">Renta nave industrial</h3></a>
+          <p class="description">CIUDAD INDUSTRIAL, MÉRIDA, YUCATÁN</p>
+          <p class="mb-0">$ 130,000 MXN</p>
+        </div>
+      </div>
+      <div class="result-4 results col- col-md-6 col-xl-4">
+        <div id="house-4" class="carousel slide" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#house-4" data-slide-to="0" class="active"></li>
+            <li data-target="#house-4" data-slide-to="1"></li>
+            <li data-target="#house-4" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item result-carousel-item active">
+              <a href="detail.html"><img src="css/images/houses/house-4/1.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-4/2.jpeg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-4/3.jpeg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#house-4" role="button" data-slide="prev">
+            <span><i class="fa fa-angle-left"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#house-4" role="button" data-slide="next">
+            <span><i class="fa fa-angle-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="result-text-box mt-0">
+          <a href="detail.html" class="text-decoration-none"><h3 class="rtb-title">Leibnitz</h3></a>
+          <p class="description">ANZURES, MIGUEL HIDALGO, CIUDAD DE MÉXICO</p>
+          <p class="mb-0">$ 49,500 MXN</p>
+        </div>
+      </div>
+      <div class="result-5 results col- col-md-6 col-xl-4">
+        <div id="house-5" class="carousel slide" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#house-5" data-slide-to="0" class="active"></li>
+            <li data-target="#house-5" data-slide-to="1"></li>
+            <li data-target="#house-5" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item result-carousel-item active">
+              <a href="detail.html"><img src="css/images/houses/house-5/1.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-5/2.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-5/3.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#house-5" role="button" data-slide="prev">
+            <span><i class="fa fa-angle-left"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#house-5" role="button" data-slide="next">
+            <span><i class="fa fa-angle-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="result-text-box mt-0">
+          <a href="detail.html" class="text-decoration-none"><h3 class="rtb-title">Casa en renta en Huixquilucan</h3></a>
+          <p class="description">SAN BARTOLOMÉ COATEPEC, HUIXQUILUCAN, ESTADO DE MÉXICO</p>
+          <p class="mb-0">$ 19,500 MXN</p>
+        </div>
+      </div>
+      <div class="result-6 results col- col-md-6 col-xl-4">
+        <div id="house-6" class="carousel slide" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#house-6" data-slide-to="0" class="active"></li>
+            <li data-target="#house-6" data-slide-to="1"></li>
+            <li data-target="#house-6" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item result-carousel-item active">
+              <a href="detail.html"><img src="css/images/houses/house-6/1.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-6/2.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-6/3.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#house-6" role="button" data-slide="prev">
+            <span><i class="fa fa-angle-left"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#house-6" role="button" data-slide="next">
+            <span><i class="fa fa-angle-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="result-text-box mt-0"> 
+          <a href="detail.html" class="text-decoration-none"><h3 class="rtb-title">Casa en renta CD. Satelite</h3></a>
+          <p class="description">CIUDAD SATÉLITE, NAUCALPAN DE JUÁREZ, ESTADO DE MÉXICO</p>
+          <p class="mb-0">$ 35,000 MXN</p>
+        </div>
+      </div>
+      <div class="result-7 results col- col-md-6 col-xl-4">
+        <div id="house-7" class="carousel slide" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#house-7" data-slide-to="0" class="active"></li>
+            <li data-target="#house-7" data-slide-to="1"></li>
+            <li data-target="#house-7" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item result-carousel-item active">
+              <a href="detail.html"><img src="css/images/houses/house-7/1.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-7/2.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-7/3.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#house-7" role="button" data-slide="prev">
+            <span><i class="fa fa-angle-left"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#house-7" role="button" data-slide="next">
+            <span><i class="fa fa-angle-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="result-text-box mt-0"> 
+          <a href="detail.html" class="text-decoration-none"><h3 class="rtb-title">Propiedad 784512</h3></a>
+          <p class="description">Bosques de la Herradura, Estado de Mexico</p>
+          <p class="mb-0">$ 35,000 MXN</p>
+        </div>
+      </div>
+      <div class="result-8 results col- col-md-6 col-xl-4">
+        <div id="house-8" class="carousel slide" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#house-8" data-slide-to="0" class="active"></li>
+            <li data-target="#house-8" data-slide-to="1"></li>
+            <li data-target="#house-8" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item result-carousel-item active">
+              <a href="detail.html"><img src="css/images/houses/house-8/1.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-8/2.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+            <div class="carousel-item result-carousel-item">
+              <a href="detail.html"><img src="css/images/houses/house-8/3.jpg" class="rci-imges d-block p-0 m-0" alt="..."></a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#house-8" role="button" data-slide="prev">
+            <span><i class="fa fa-angle-left"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#house-8" role="button" data-slide="next">
+            <span><i class="fa fa-angle-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="result-text-box mt-0"> 
+          <a href="detail.html" class="text-decoration-none"><h3 class="rtb-title">Casa en renta en Fontana residencial</h3></a>
+          <p class="description">PRIVADA LOS FRANCISCANOS, SANTIAGO, NUEVO LEÓN</p>
+          <p class="mb-0">$ 27,500 MXN</p>
+        </div>
+      </div>
+    </div>  
+  </main>
+  <footer class="footer footer-result m-auto-sm">
+    <div class="icons-description-box">
+      <a href="#" class="text-decoration-none"><i class="fab fa-facebook-f mr-4 white"></i></a>
+      <a href="#" class="text-decoration-none"><i class="fab fa-whatsapp mr-4 white"></i></a>
+      <a href="#" class="text-decoration-none"><i class="far fa-envelope mr-4 white"></i></a>
+      <a href="#" class="text-decoration-none"><i class="fab fa-twitter mr-4 white"></i></a>
+      <a href="#" class="text-decoration-none"><i class="fab fa-instagram white"></i></a>
+    </div>
+    <ul class="footer-ul">
+        <li><a href="#" class="footer-ul-a text-decoration-none white">Privacy policy</a></li>
+        <li><a href="#" class="footer-ul-a text-decoration-none white">About us</a></li>
+    </ul>
+</footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
